@@ -1,6 +1,5 @@
 version: v1.0.0
 steps:
-  - cmd: -t ubuntu:16.04
+  - cmd: -t ubuntu:16.04 echo $HOME
     id: testacrbuild
     detatch: false
-    entryPoint: /bin/bash -c "echo $HOME"
