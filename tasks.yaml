@@ -3,4 +3,4 @@ steps:
   - cmd: -t ubuntu:16.04
     id: testacrbuild
     detatch: false
-    entryPoint: "[ \"sh\", \"-c\", \"echo $HOME\" ]"
+    entryPoint: "[ \"/bin/bash\", \"-c\", \"echo $HOME\" ]"
