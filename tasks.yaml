@@ -1,5 +1,6 @@
 version: v1.0.0
 steps:
-  - cmd: -t ubuntu:16.04 echo $HOME
+#  - cmd: -t ubuntu:16.04 echo $HOME
+  - cmd: docker run ubuntu:16.04 echo $HOME
     id: testacrbuild
     detatch: false
